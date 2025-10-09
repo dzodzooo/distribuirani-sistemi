@@ -1,6 +1,6 @@
 import java.net.*;
-import java.rmi.server.*;
 import java.rmi.*;
+import java.rmi.server.*;
 import java.util.Scanner;
 
 public class Client {
@@ -10,11 +10,12 @@ public class Client {
   Scanner scanner;
   String name;
 
-  public Client(String name) throws RemoteException, NotBoundException, MalformedURLException {
-    this.callbackProvider = new Callback("");
+  public Client(String name)
+      throws RemoteException, NotBoundException, MalformedURLException {
+    this.callbackProvider = new Callback();
     this.scanner = new Scanner(System.in);
     this.broker = (IMQTT)Naming.lookup("rmi://localhost:1099/mqttService");
-    this.name=name;
+    this.name = name;
   }
 
   public void publishMessageToTopic() throws RemoteException {
@@ -31,16 +32,16 @@ public class Client {
     this.broker.subscribe(topic, this.name, this.callbackProvider);
   }
 
-  public void unsubscribeFromTopic() throws RemoteException{
+  public void unsubscribeFromTopic() throws RemoteException {
     System.out.println("\nInput topic to unsubscribe from");
     String topic = this.scanner.nextLine();
     this.broker.unsubscribe(topic, this.name);
     UnicastRemoteObject.unexportObject(this.callbackProvider, true);
   }
 
-  public void runBroker() throws RemoteException{
-	  String input;
-    do {    
+  public void runBroker() throws RemoteException {
+    String input;
+    do {
       System.out.println("\nt to subscribe to topic");
       System.out.println("p to publish a message");
       System.out.println("q to quit");

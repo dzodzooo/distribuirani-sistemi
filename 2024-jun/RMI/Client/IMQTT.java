@@ -4,5 +4,6 @@ public interface IMQTT extends Remote {
   public void subscribe(String topic, String username, ICallback callback)
       throws RemoteException;
   public void unsubscribe(String topic, String username) throws RemoteException;
-  public void publish(String username, String topic, String message) throws RemoteException;
+  public void publish(String username, String topic, String message)
+      throws RemoteException;
 }
