@@ -1,0 +1,10 @@
+syntax = "proto3";
+option csharp_namespace="Client";
+
+service FibonacciServiceProvider{
+	rpc generateFibonacciSequence(Number) returns (stream Number);
+};
+
+message Number {
+	int32 Value = 1;
+};
