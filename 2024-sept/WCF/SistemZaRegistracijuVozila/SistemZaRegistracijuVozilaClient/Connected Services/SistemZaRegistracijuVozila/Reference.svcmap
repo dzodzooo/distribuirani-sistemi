@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="c4c36c93-8f08-4f1a-b639-25b19bc54a84" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:62906/ServisZaRegistracijuVozila.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServisZaRegistracijuVozila.disco" MetadataType="Disco" ID="c01be42a-11a7-4b09-8dc4-89ffb3c6be7f" SourceId="1" SourceUrl="http://localhost:62906/ServisZaRegistracijuVozila.svc?disco" />
+    <MetadataFile FileName="ServisZaRegistracijuVozila.xsd" MetadataType="Schema" ID="76ea3acf-5918-4cc3-9c5f-08694fa55621" SourceId="1" SourceUrl="http://localhost:62906/ServisZaRegistracijuVozila.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServisZaRegistracijuVozila1.xsd" MetadataType="Schema" ID="1857294c-76a3-47e0-aadd-5bb11f58accd" SourceId="1" SourceUrl="http://localhost:62906/ServisZaRegistracijuVozila.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServisZaRegistracijuVozila2.xsd" MetadataType="Schema" ID="d8c86a43-9c0d-4745-9205-021f40862728" SourceId="1" SourceUrl="http://localhost:62906/ServisZaRegistracijuVozila.svc?xsd=xsd3" />
+    <MetadataFile FileName="ServisZaRegistracijuVozila.wsdl" MetadataType="Wsdl" ID="3bfea04c-ede2-4528-a91d-e25f84a5546f" SourceId="1" SourceUrl="http://localhost:62906/ServisZaRegistracijuVozila.svc?wsdl" />
+    <MetadataFile FileName="ServisZaRegistracijuVozila3.xsd" MetadataType="Schema" ID="4f5ba5e3-5392-41ab-9a71-e3337703edde" SourceId="1" SourceUrl="http://localhost:62906/ServisZaRegistracijuVozila.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

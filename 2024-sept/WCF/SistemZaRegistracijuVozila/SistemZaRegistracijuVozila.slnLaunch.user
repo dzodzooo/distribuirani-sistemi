@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "SistemZaRegistracijuVozila\\SistemZaRegistracijuVozila.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "SistemZaRegistracijuVozilaClient\\SistemZaRegistracijuVozilaClient.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

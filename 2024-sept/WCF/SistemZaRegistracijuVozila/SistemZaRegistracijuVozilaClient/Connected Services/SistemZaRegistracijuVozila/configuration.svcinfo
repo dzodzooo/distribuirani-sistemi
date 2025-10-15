@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configurationSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:schemas-microsoft-com:xml-wcfconfigurationsnapshot">
+  <behaviors />
+  <bindings>
+    <binding digest="System.ServiceModel.Configuration.WSHttpBindingElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data name=&quot;WSHttpBinding_IServisZaRegistracijuVozila&quot; /&gt;" bindingType="wsHttpBinding" name="WSHttpBinding_IServisZaRegistracijuVozila" />
+  </bindings>
+  <endpoints>
+    <endpoint normalizedDigest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;http://localhost:62906/ServisZaRegistracijuVozila.svc&quot; binding=&quot;wsHttpBinding&quot; bindingConfiguration=&quot;WSHttpBinding_IServisZaRegistracijuVozila&quot; contract=&quot;SistemZaRegistracijuVozila.IServisZaRegistracijuVozila&quot; name=&quot;WSHttpBinding_IServisZaRegistracijuVozila&quot;&gt;&lt;identity&gt;&lt;userPrincipalName value=&quot;DESKTOP-NBG0UVO\jovana&quot; /&gt;&lt;/identity&gt;&lt;/Data&gt;" digest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;http://localhost:62906/ServisZaRegistracijuVozila.svc&quot; binding=&quot;wsHttpBinding&quot; bindingConfiguration=&quot;WSHttpBinding_IServisZaRegistracijuVozila&quot; contract=&quot;SistemZaRegistracijuVozila.IServisZaRegistracijuVozila&quot; name=&quot;WSHttpBinding_IServisZaRegistracijuVozila&quot;&gt;&lt;identity&gt;&lt;userPrincipalName value=&quot;DESKTOP-NBG0UVO\jovana&quot; /&gt;&lt;/identity&gt;&lt;/Data&gt;" contractName="SistemZaRegistracijuVozila.IServisZaRegistracijuVozila" name="WSHttpBinding_IServisZaRegistracijuVozila" />
+  </endpoints>
+</configurationSnapshot>
